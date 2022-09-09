@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/86d055b282.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!--My CSS-->
+    <link rel="stylesheet" href="Asset/style.css" />
+    <title>Layanan Online</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="Asset/logo (1).png" alt="auto" width="" height="50" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Layanan </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="pesan taman.html">Pesan Taman</a></li>
+                <li><a class="dropdown-item" href="#">Pesan Desain</a></li>
+                <li><a class="dropdown-item" href="Konsultasi Online.html">Konsultasi Online</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Blog </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Mitra </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Mitra Kami</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Jumbotron -->
+    <h1 class="text-center">Konsultasi Online</h1>
+    <p class="text-center">klik dibawah ini untuk memilih tanggal & wakktu yang tersedia untuk memanggil konsultan kami</p>
+    
+    <form>
+      <h4 class="mt-5">Tema Taman</h4>
+      <div class="form-group">
+          Pilih tema teratas yang akan dibuat
+      </div>
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+          <strong>Catatan : </strong> Jika anda belum memiliki inspirasi tema taman, maka anda bisa melewati
+          tahapan ini, konsultasi kami akan memberikan rekomendasi terbaik untuk taman anda.
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 bg-white offset-md-3 panel-form">
+                <form>
+                    <h2 class="mt-5">Informasi Data Diri</h2>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-6 mt-2">
+                                Nama Lengkap
+                                <input type="email" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="col-md-6 mt-2">
+                                No. HP
+                                <input type="email" class="form-control" placeholder="Handphone">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-12 mt-2">
+                                <input type="email" class="form-control" placeholder="Email Address">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Alamat</label>
+                        <textarea name="alamat" class="form-control" placeholder="Alamat"></textarea>
+                    </div>
+                    <form>
+                        <label for="date" class="col-sm-1 col-form-label">Date</label>
+                        <div class="col-sm-4">
+                            <div class="input-group date" id="datepicker">
+                                <input type="text" class="form-control">
+                                <span class="input-group-append">
+                                    <span class="input-group-text bg-white d-block">
+                                        <i class="fa fa-calendar"></i>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="row">
+                        <div class="mt-3 offset-md-4 mb-5">
+                            <button type="button" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 bg-white offset-md-3 panel-form">
+            <form>
+                <h2 class="mt-5">Informasi Konsultan Taman</h2>
+                <br>
+                <div class="form-group">
+                    <h4>Lahan Taman</h4>
+                    Pilih jumlah lahan taman yang akan dibuat
+                </div>
+
+                <div class="row">
+                    <div class="button1">
+                        <button type="button" class="btn btn-outline-success">1. Lahan Taman</button>
+                        <button type="button" class="btn btn-outline-success">2. Lahan Taman</button>
+                        <button type="button" class="btn btn-outline-success">Lebih dari 2 Lahan Taman</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+   
+
+                <div class="row">
+                    <div class="col-md-4 bg-white offset-md-0 panel-form">
+                        <div class="card-deck">
+                            <div class="card">
+                                <img class="card-img-top" src="Asset/tamanminimalis.jpg" alt="Card image cap" width="193px"
+                                    height="193px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Taman Minimalis</h5>
+                                    <p class="card-text">tanaman yang indah dilahan yang sempit.</p>
+                                    <a href="#" style="font-color:green; margin-left: 140px;">Pilih</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 bg-white offset-md-0 panel-form">
+                        <div class="card">
+                            <img class="card-img-top" src="Asset/tamankering.jpg" alt="Card image cap" width="193px">
+                            <div class="card-body">
+                                <h5 class="card-title">Taman Kering</h5>
+                                <p class="card-text">taman yang dirancang untuk menghasilkan suasana didalam rumah dan
+                                    diluar rumah.</p>
+                                <a href="#" style="font-color:green; margin-left: 140px;">Pilih</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 bg-white offset-md-0 panel-form">
+                        <div class="card">
+                            <img class="card-img-top" src="Asset/tamantropis.jpg" alt="Card image cap" width="193px">
+                            <div class="card-body">
+                                <h5 class="card-title">Taman Tropis</h5>
+                                <p class="card-text">taman yang paling sesuai dengan iklim di Indonesia.</p>
+                                <a href="#" style="font-color:green; margin-left: 140px;">Pilih</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <script type="text/javascript">
+                    $(function () {
+                        $('#datepicker').datepicker();
+                    });
+                </script>
+
+      
+
+      <script type="text/javascript">
+          $(function () {
+              $('#datepicker').datepicker();
+          });
+      </script>
+  </body>
+</html>
